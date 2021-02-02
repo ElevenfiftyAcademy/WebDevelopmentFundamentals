@@ -1,0 +1,79 @@
+
+/* Overriding Built-In Styling */
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navbar Styles */
+nav {
+    margin: auto;
+    max-width: 800px;
+    padding: 1em;
+    padding-bottom: 0;
+}
+nav a:hover {
+    opacity: 0.8;
+}
+nav img {
+    width: 3em;
+}
+
+
+/* Page Content Styles */
+section {
+    margin: auto;
+    max-width: 800px;
+    padding: 0 1em;
+    margin-bottom: 2em;
+}
+
+/* List Styles */
+ul {
+    text-align: center;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+    padding: 1em;
+    text-decoration: none;
+    margin: 1em 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    opacity: 0.8;
+}
+
+small {
+    background-color: rgb(255, 252, 213);
+    padding: 3px;
+    border-radius: 2px;
+    border: 1px solid rgb(255, 248, 75);
+}
+
+.goBack {
+    display: block;
+    margin-top: 0.5em;
+    color: black;
+    font-size: 1.5em;
+    width:fit-content;
+}
+
+.goBack:hover {
+    background-color: rgb(255, 252, 213);
+}
+
+#roadmap {
+    background-color: teal;
+    color: #fff;
+}
